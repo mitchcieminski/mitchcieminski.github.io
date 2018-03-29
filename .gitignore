@@ -1,0 +1,12 @@
+##### This file ignores all emacs draft filenames. Don't commit a file with a # or ~ in it!
+*#*
+*~*
+
+##### Here's some OS generated files that are also good to ignore
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
