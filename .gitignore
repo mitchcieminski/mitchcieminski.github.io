@@ -12,6 +12,6 @@ ehthumbs.db
 Thumbs.db
 
 ##### Here's a Jekyll-related thing I want to ignore
-_site
+_site/
 .sass-cache
 .jekyll-metadata
