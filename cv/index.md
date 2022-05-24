@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: cv
 title: Mitch Cieminski | Curriculum Vitae
 ---
-# {{ page.title }}
 
 ## Degrees
 *  **B.S., Electrical and Computer Engineering**, [Olin College of Engineering](http://www.olin.edu/), December 2016.
