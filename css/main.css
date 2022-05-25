@@ -20,15 +20,28 @@ figure > img { display: block; }
 figcaption { font-size: 14px; }
 
 /** Lists */
-ul, ol { margin-left: 30px; }
 
 ul { list-style: none; }
+
+ul ul { margin-left: 30px; margin-bottom: 0px; }
+
+ul.topnav { margin-left: 30px; margin-top: 15px; }
+
+ul.bottomnav { margin-left: 30px; }
 
 ul.topnav li, ul.bottomnav li { display:inline-block; padding-right: 30px; }
 
 ul li, ol li { margin-bottom: 0px; }
 
-ul li ul { margin-bottom: 0px; }
+ul.citation-list li { text-indent: -15px; margin-left: 15px; }
+
+ul.citation-list ul { margin-left: 15px; }
+
+ul.citation-list li.citation-desc { text-indent: 0px; margin-left: 0px; }
+
+/** Special paragraphs */
+p.lastupdated { color: gray; font-size: smaller; margin-left: 45px; margin-top: 0px; }
+p.postinfo { color: gray; font-size: 90%; font-style: italic; margin-top: 0px; margin-left: 15px}
 
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
@@ -126,6 +139,7 @@ table td { border: 1px solid #e8e8e8; }
 .post-link { display: block; font-size: 24px; }
 
 /** Posts */
+.post { border-width: 1px; border-top-style: solid; border-bottom-style: solid; padding-top: 15px; }
 .post-header { margin-bottom: 30px; }
 
 .post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
