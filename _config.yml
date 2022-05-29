@@ -10,9 +10,10 @@ email: ciemim@rpi.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The homepage for Mitch Cieminski, scholar of science and technology studies 
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  <div class="license-box" style="float: right;"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></div>
+  Site content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless otherwise noted.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with a modified <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: academic-website, portfolio-website, science and technology studies, sts, disability, engineering studies, engineering, scholar, RPI, Olin College  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
