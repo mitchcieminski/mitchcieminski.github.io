@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-    <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-  </head>
-  <body>
-    <nav>
-      <ul class="topnav">
-	<li><a href="/">Home</a></li>
-	<li><a href="/cv">Curriculum Vitae</li>
-	<li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
-    <div class="container">
-      <h1> {{ page.title }}</h1>
-      
-      {{ content }}
+<html lang="{{ site.lang }}">
 
-    </div><!-- /.container -->
-    <footer>
-      {% if page.date != Null and page.layout != "post" %}
-      <p class="lastupdated">This page was last updated {{ page.date }}</p>
-      {% endif %}
-      <ul class="bottomnav">
-	<li><a href="https://twitter.com/mitchcieminski">twitter</a></li>
-	<li><a href="https://github.com/mitchcieminski">github</a></li>
-      </ul>
-    </footer>
+  <!-- Head -->
+  <head>
+  {%- if page.redirect -%}
+    <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
+  {%- endif -%}
+  {% include head.html %}
+  </head>
+
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Header -->
+    {%- include header.html %}
+
+    <!-- Content -->
+    <div class="container mt-5">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+    {%- include footer.html %}
+
+    <!-- JavaScripts -->
+    {% include scripts/jquery.html %}
+    {% include scripts/bootstrap.html %}
+    {% include scripts/masonry.html %}
+    {% include scripts/misc.html %}
+    {% include scripts/mathjax.html %}
+    {% include scripts/analytics.html %}
   </body>
 </html>
