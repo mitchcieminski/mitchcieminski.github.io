@@ -5,12 +5,12 @@ permalink: /
 subtitle: Graudate Research Fellow and PhD Candidate, Department of Science and Technology Studies, RPI.
 profile:
   align: right
-  image: mitch_prof_pic.jpg
+  image: mitch_profile_pic.jpg
   address: >
     <p>Mitch Cieminski</p>
-    <p>5707, Russell Sage Laboratory</p>
+    <p>Russell Sage Labs, 5707</p>
     <p>110 Eighth Street</p>
-    <p>Troy, NY 12180<p>
+    <p>Troy, NY 12180</p>
     <p>United States</p>
 
 news: false  # includes a list of news items

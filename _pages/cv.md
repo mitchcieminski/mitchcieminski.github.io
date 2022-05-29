@@ -1,7 +1,11 @@
 ---
-layout: default
-title: Mitch Cieminski | Curriculum Vitae
+layout: page
+permalink: /cv/
+title: curriculum vitae
+description: mitch's (mostly) up-to-date cv
 date: 2022-05-25
+nav: true
+nav_order: 2
 ---
 
 ## Degrees
@@ -19,7 +23,7 @@ date: 2022-05-25
 * **McKinney Writing Contest, Second Prize, Graduate Poetry division**, Rensselaer Polytechnic Institute, April 2021.
 {: .citation-list}
 
-## Publications <span style="font-size:small; font-weight:normal">[&#91;BibTeX&#93;](./cieminski_2019-07-29.bib)</span>
+## Publications <span style="font-size:small; font-weight:normal">[&#91;BibTeX&#93;](/assets/tex/cieminski_2019-07-29.bib)</span>
 
 * Mitch Cieminski (June 2019), **"Queer(y)-ing Technical Practice: Queer Experiences in Student Theater Productions at a Technical University,"** *2019 ASEE Annual Conference & Exposition*, Tampa Bay, Florida. <https://peer.asee.org/33222>
 * Nieusma, Dean and Mitch Cieminski (June 2018), **"Ethics Education as Enculturation: Student Learning of Personal, Social, and Professional Responsibility,"** *2018 ASEE Annual Conference & Exposition*, Salt Lake City, Utah. <https://peer.asee.org/30443>
@@ -30,12 +34,14 @@ date: 2022-05-25
 
 *(The following are linked here in the interest of making some of my unpublished work available to the public. They have not gone through any sort of peer review or referree. Please **contact me** before citing any of these works in their present form.)*
 
-* Mitch Cieminski (August 2019), **"Portfolio Exam,"** submitted to the Department of Science and Technology Studies at to satisfy comprehensive exam requirements, *Rensselaer Polytechnic Institute*, Troy, New York. [Download PDF](./cieminski_phd-portfolio-exam_2019.).
+* Mitch Cieminski (August 2019), **"Portfolio Exam,"** submitted to the Department of Science and Technology Studies at to satisfy comprehensive exam requirements, *Rensselaer Polytechnic Institute*, Troy, New York. [Download PDF](/assets/pdf/cieminski_phd-portfolio-exam_2019.pdf).
   * {: .citation-desc} *This is an edited and exerpted collection of 18 works, some published and some unpublished, spanning from June 2017 to August 2019.*
 {: .citation-list}
 
 ## Presentations
 
+* Cieminski, Mitch (March, 2022<!--2022-03-23-->), **"Approaching Ableism in Engineering Education,"** *RPI STS Annual Research Day,* Troy, New York.
+* Slaton, Amy, Yanna Lambrinidou, Ayush Gupta, Donna M. Riley, Alice Pawley, Michael Lachney, Mitch Cieminski, and James Holly, Jr. (July, 2021<!--2021-07-27-->), **"PANEL: Breaking Out of 'Engineering Nice': Why Engineering Education Must Make Space for Conflict,"** *American Society of Engineering Education Annual Conference and Exposition*, Virtual meeting, Invited group panel. 
 * Cieminski, Mitch and Dean Nieusma (September 2019), **"Interrupted Identities and Engineering Ethics: Ability, Relationships, and the Public and Private of Engineering,"** *Society for Social Studies of Science Annual Meeting*, New Orleans, Louisiana.
 * Cieminski, Mitch (June 2019), **"Between Decreasing Pollution and 'Solving' Climate Change: How Engineering Students Conceptualize the Ethical Dimensions of Sustainability,"** *12th Symposium on Engineering and Liberal Education*, Schenectady, New York.
 * Cieminski, Mitch (May 2018), **"Chimerical Ethics Among Undergraduate Engineers: Heterogeneity in Micro/Macroethics, Knowledge/Ignorance, Realities/Imaginaries,"** *4th Annual Binocular Conference: CHIMERIZATIONS*, Toronto, Ontario.
